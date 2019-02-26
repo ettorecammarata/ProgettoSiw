@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+body {
+	background: radial-gradient(#595959, #000000 95%);
+	color: white;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.btn-outline-primary {
+	color: #dbcd24;
+	background-color: transparent;
+	background-image: none;
+	border-color: #ff80c0;
+}
+
+.btn-outline-primary :hover, .btn-outline-primary:focus,
+	.btn-outline-primary:active, .btn-outline-primary.active {
+	color: #000000;
+	background-color: transparent;
+	background-image: none;
+	border-color: #ff80c0;
+}
+
+.btn-primary {
+	color: #000;
+	background-color: #1ed760;
+	border-color:;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active,
+	.btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	color: #000000;
+	background-color: #c8779b;
+	border-color: #ff00ff; /*set the color you want here*/
+}
+
+.card {
+	background-color: #393c38;
+}
+
+.bg-white {
+	background: linear-gradient(to bottom right, #595959, #000000)
+		!important;
+	color: white;
+}
+
+.bg-white a:-webkit-any-link {
+	color: white;
+	cursor: pointer;
+}

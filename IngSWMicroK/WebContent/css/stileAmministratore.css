@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+.Macro {
+	width: 100% ;
+	height: 100% ; 
+	border-color: black ; 
+	background-color: white;
+}
+
+.td {
+	width: 33% ; 
+}
